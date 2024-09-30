@@ -1,4 +1,11 @@
+/* Link da fonte */
+@import url(https://fonts.google.com/specimen/Poppins?query=po);
 
+/* Fonte */
+body{
+    font-family: "Poppins" , sans-serif
+}    
+   /* Barra de navegação */
 header{
     background-color: #F2F5F7;
     display: flex;
@@ -9,29 +16,36 @@ header{
     position: sticky;
     top: 0;
     z-index: 9;
+    
 
     /* leve sombreado no header */
     /* offset-x| offset-y|blur-radius|color */
     box-shadow: 5px 5px 10px #2e2e2e;
 }
+
+/* Imagem */
 .bannerprincipal{
     width: 1500px;
     height: 700px;
     margin-left: 100px;
 }
+
+/* Icones */
 nav a{
     margin: 0 100px;
     text-decoration: none;
     font-size: 20px;
-    color: red;
+    color: #FE000B;
     gap: 5px;
 }
 
-
+/* Mudança na cor dos icones */
 nav a:hover{
     padding: 5px 0px;
-    color: white;
+    color: #980907;
 }
+
+/*  */
 main img{
     width:1500px;
     height: 750px;
@@ -41,7 +55,7 @@ main img{
 }
 
 span{
-    color: red;
+    color: #FE000B;
     font-weight: bolder;
 }
 .subt{
@@ -71,15 +85,20 @@ span{
     height: 200px;
     margin-left: 50px;
 }
+#sociais{
+
+    color: #fff;
+}
 .sociais{
     display: flex;
     margin-top: 37%;
     margin-left: 150%;
     gap: 5px;
+    
 }
 
 .destaqueTexto input{
-    background-color: red;
+    background-color: #FE000B;
     padding: 5px 15px px;
     color: #fff;
     text-decoration: none;
@@ -100,27 +119,18 @@ span{
 #form-contato {
     width: 200px; /* Largura reduzida para dispositivos móveis */
     height: auto; /* Altura ajustável */
-    color: red;
+    color: #FE000B;
 }
+#form-contato2{
+    width: 400px; /* Largura reduzida para dispositivos móveis */
+    height: auto; /* Altura ajustável */
+    color: #FE000B;
+}
+
 .logo_da_barra{
     width: 200px;
     margin-right: 50px;
 }
-/* .destaqueTexto2{
-    width: 600px;
-    height: 250px;
-    background-color: #ffffffc7; */
-    /* Vai posicionar o texto*/
-    
-    /* position: absolute;
-    top: 350px;
-    left: 500px;
-    border-radius: 10px;
-    font-size: 100%;
-    
-    
-} */
-
 
 /* Estilos para a seção de login */
 #sessao-login {
@@ -149,7 +159,23 @@ h3{
 /* Estilos para os inputs */
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.fornecedor{
+    width: 420px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#Descrição{
+    width: 400px;
     padding: 10px;
     margin: 10px 0;
     border: none;
@@ -165,8 +191,8 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: red; /* Cor do botão */
-    color: white;
+    background-color: #FE000B; /* Cor do botão */
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -180,7 +206,7 @@ input[type="submit"] {
 
 
 input[type="submit"]:hover {
-    background-color: #218838; /* Cor do botão ao passar o mouse */
+    background-color: #980907; /* Cor do botão ao passar o mouse */
 }
 
 /* Configuração da tabela */
@@ -191,4 +217,95 @@ input[type="submit"]:hover {
 .th{
     border: 1px solid #dddddd;
 }
+@media (max-width: 768px) {
+    header{
+        background-color: #F2F5F7;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1700px;
+        height: 500px;
+        position: sticky;
+        top: 0;
+        z-index: 9;
+        
+    
+        /* leve sombreado no header */
+        /* offset-x| offset-y|blur-radius|color */
+        box-shadow: 5px 5px 10px #2e2e2e;
+    }
+    /* Imagem */
+    .bannerprincipal{
+        width: 1500px;
+        height: 700px;
+        margin-left: 100px;
+    }
+    .destaqueTexto{
+        width: 900px;
+        height: 400px;
+        background-color: #ffffffc7;
+        /* Vai posicionar o texto*/
+        
+        position: absolute;
+        top: 900px;
+        left: 300px;
+        border-radius: 10px;
+        font-size: 100%;
+    }
+    main img{
+        width:1700px;
+        height: 1800px;
+        margin: 0;
+        padding: 0;
+        opacity: 0.7;
+    }
+    .logoprincipal {
+        margin: 1px 15px;
+        width: 900px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    input[type="submit"] {
+        background-color: #FE000B; /* Cor do botão */
+        color: #ffffff;
+        margin-left: 400px;
+        padding: 30px 90px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+    }
+    .logo_da_barra{
+        width: 500px;
+        margin-right: 50px;
+    }
+    nav a{
+        margin: 0 100px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #FE000B;
+        gap: 5px;
+    }
+    .sociais{
+        display: flex;
+        margin-top: 37%;
+        margin-left: 150%;
+        gap: 5px;
+        
+    }
+    #sessao-login {
+        position: absolute;
+        top: 150%;
+        left: 110%;
+        transform: translate(-50%, -50%);
+        background-color:whitesmoke; /* Fundo semi-transparente */
+        padding: 70px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    
 
+}
