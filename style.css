@@ -223,7 +223,7 @@ input[type="submit"]:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 1700px;
+        width: 1750px;
         height: 500px;
         position: sticky;
         top: 0;
@@ -248,12 +248,12 @@ input[type="submit"]:hover {
         
         position: absolute;
         top: 900px;
-        left: 300px;
+        left: 400px;
         border-radius: 10px;
         font-size: 100%;
     }
     main img{
-        width:1700px;
+        width:1750px;
         height: 1800px;
         margin: 0;
         padding: 0;
@@ -300,10 +300,107 @@ input[type="submit"]:hover {
         left: 110%;
         transform: translate(-50%, -50%);
         background-color:whitesmoke; /* Fundo semi-transparente */
-        padding: 70px;
+        padding: 170px;
         border-radius: 10px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
+    #botao-enviar{
+        background-color: #FE000B; /* Cor do botão */
+        color: #ffffff;
+        margin-left: 100px;
+        padding: 30px 90px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+    }
+    span{
+        color: #FE000B;
+        font-weight: bolder;
+        font-size: 70px;
+        
+    
+    }
+    #sis-cadastro{
+        color: #FE000B;
+        font-weight: bolder;
+        font-size: 45px;
+        margin-left: 70px;
+
+    }
+    .subt{
+        
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-left: 60px;
+        
+        
+    }
+    input[type="text"],
+    input[type="password"] {
+    width: 400px;
+    padding: 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    }
+    a{
+        font-size: 30px;
+    }
+    #cad-sis{
+
+        color: #FE000B;
+        font-weight: bolder;
+        font-size: 70px;
+        margin-left: 5px;
+
+    }
+    .subit{
+        color: black;
+        margin-left: 80px;
+        font-size: 21px;
+    }
+    #bot-cadastrar{
+        background-color: #FE000B; /* Cor do botão */
+        color: #ffffff;
+        margin-left: -40px;
+        padding: 30px 90px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+
+    }
+    .tabela{
+        border-collapse: collapse;
+        width: 100%;
+     }
+     .th{
+         border: 1px solid #dddddd;
+         font-size: 20px;
+     }
+     #bot-cad{
+        background-color: #FE000B; /* Cor do botão */
+        color: #ffffff;
+        margin-left: -60px;
+        padding: 30px 90px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+     }
+     #cad-pro{
+        
+        
+
+
+     }
+    
     
     
     
