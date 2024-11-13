@@ -7,7 +7,7 @@ body{
 }    
    /* Barra de navegação */
 header{
-    background-color: #F2F5F7;
+    background-color: #be0c0c;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ nav a{
     margin: 0 100px;
     text-decoration: none;
     font-size: 20px;
-    color: #FE000B;
+    color: #ffffff;
     gap: 5px;
 }
 
@@ -55,14 +55,14 @@ main img{
 }
 
 span{
-    color: #FE000B;
+    color: #ffffff;
     font-weight: bolder;
 }
 .subt{
-    color: black;
+    color: rgb(151, 24, 24);
 }
 .subit{
-    color: black;
+    color: rgb(255, 255, 255);
     margin-left: 80px;
 }
 
@@ -129,6 +129,7 @@ span{
 
 .logo_da_barra{
     width: 200px;
+    margin-top: -55px;
     margin-right: 50px;
 }
 
@@ -138,7 +139,7 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:whitesmoke; /* Fundo semi-transparente */
+    background-color:rgba(208, 61, 50, 0.714); /* Fundo semi-transparente */
     padding: 70px;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
@@ -394,7 +395,7 @@ input[type="submit"]:hover {
         font-size: 1em;
         transition: background-color 0.3s;
      }
-     #cad-pro{
+     
         
         
 
@@ -402,7 +403,3 @@ input[type="submit"]:hover {
      }
     
     
-    
-    
-
-}
